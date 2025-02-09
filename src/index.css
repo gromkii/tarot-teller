@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
+@plugin "tailwindcss-animate";
+
 body {
-  background-color: #242424;
-  text: white;
+  background-color: #333;
 }
